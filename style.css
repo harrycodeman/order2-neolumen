@@ -1,0 +1,16 @@
+body{
+background-image: url(images/bg.png);
+background-size: fill;
+color: white;
+}
+table{
+color: white;
+}
+td, th { 
+padding: .3em;
+text-align:center; 
+}
+#header-table{
+background-image: url(images/header.png);
+background-size: fill;
+}
