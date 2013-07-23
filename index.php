@@ -19,35 +19,168 @@
 </head>
 <body>
 <div align="center">
-	<table width="800" bordercolor="red" border="1">
-		<tr>
-			<td id="header-table" height=300 colspan = 4>
-			</td>
-		</tr>
+	<table width="800">
 		<tr>
 			<td>
-				Main
-			</td>
-			<td>
-				About
-			</td>
-			<td>
-				Services
-			</td>
-			<td>
-				Contacts
+				<img src="<?php bloginfo('template_directory'); ?>/images/header.png"/>
 			</td>
 		</tr>
+
 		<tr>
-			<td id="image-table" height=300 colspan = 4>
+			<td>
+				<table id="big-text" align="center">
+					<tr>						
+						<td>
+							MAIN
+						</td>
+						<td>
+							ABOUT
+						</td>
+						<td>
+							SERVICES
+						</td>
+						<td>
+							CONTACTS
+						</td>
+					</tr>
+				</table>
+			<td>
+		</tr>	
+		
+		<tr>
+			<td>
+				<img src="<?php bloginfo('template_directory'); ?>/images/line.png"/>
+			</td>
+		</tr>	
+		
+		<tr>
+			<td>
+				<img src="<?php bloginfo('template_directory'); ?>/images/image.png"/>
 			</td>
 		</tr>
+
 		<tr>
-			<td id="text-table" height=300 colspan = 4>
+			<td>
+				<img src="<?php bloginfo('template_directory'); ?>/images/line.png"/>
+			</td>
+		</tr>	
+		
+		<tr>
+			<td>		
+				<div id="big-text" align="center">
+					<b>ABOUT<b>
+				</div>
+				<div id="small-text" width=400>
+					blablablablablablablablablablablablablablablablablabla<br>
+					blablablablablablablablablablablablablablablablablabla<br>
+					blablablablablablablablablablablablablablablablablabla<br>
+					blablablablablablablablablablablablablablablablablabla<br>
+					blablablablablablablablablablablablablablablablablabla<br>
+					blablablablablablablablablablablablablablablablablabla<br>
+					blablablablablablablablablablablablablablablablablabla<br>
+					blablablablablablablablablablablablablablablablablabla<br>
+					blablablablablablablablablablablablablablablablablabla<br>
+					blablablablablablabla
+				</div>
+				<table align="center">
+					<tr>
+						<td width=150>
+							lablabla<br>
+							lablabla<br>
+							lablabla<br>
+						</td>
+						<td width=150>
+							lablabla<br>
+							lablabla<br>
+							lablabla<br>
+						</td>
+						<td width=150>
+							lablabla<br>
+							lablabla<br>
+							lablabla<br>
+						</td>
+					</tr>
+				</table>
 			</td>
 		</tr>
+		
 		<tr>
-			<td id="3images-table" height=300 colspan = 4>
+			<td>
+				<img src="<?php bloginfo('template_directory'); ?>/images/line.png"/>
+			</td>
+		</tr>	
+		
+		<tr>
+			<td colspan=4>
+				<div id="big-text" align="center">
+					<b>SERVICES<b>
+				</div>
+				<div id="small-text" width=400>
+					blablablablablablablablablablablablablablablablablabla<br>
+					blablablablablablablablablablablablablablablablablabla<br>
+					blablablablablablablablablablablablablablablablablabla<br>
+					blablablablablablablablablablablablablablablablablabla<br>
+					blablablablablablablablablablablablablablablablablabla<br>
+					blablablablablablablablablablablablablablablablablabla<br>
+					blablablablablablablablablablablablablablablablablabla<br>
+					blablablablablablablablablablablablablablablablablabla<br>
+					blablablablablablablablablablablablablablablablablabla<br>
+					blablablablablablablablablablabl
+				</div>
+			</td>
+		</tr>
+
+		</tr>
+			</td>
+				<table align="center">
+					<tr>
+						<td width=150>
+							lablabla<br>
+							lablabla<br>
+							lablabla<br>
+						</td>
+						<td width=150>
+							lablabla<br>
+							lablabla<br>
+							lablabla<br>
+						</td>
+						<td width=150>
+							lablabla<br>
+							lablabla<br>
+							lablabla<br>
+						</td>
+					</tr>		
+				</table>				
+			</td>
+		</tr>
+		
+		<tr>
+			<td>
+				<img src="<?php bloginfo('template_directory'); ?>/images/line.png"/>
+			</td>
+		</tr>	
+		
+		<tr>
+			<td>
+				<table align="center">			
+					<tr>
+						<td width=150>
+							lablabla<br>
+							lablabla<br>
+							lablabla<br>
+						</td>
+						<td width=150>
+							lablabla<br>
+							lablabla<br>
+							lablabla<br>
+						</td>
+						<td width=150>
+							lablabla<br>
+							lablabla<br>
+							lablabla<br>
+						</td>
+					</tr>
+				<table>
 			</td>
 		</tr>
 	</table>
