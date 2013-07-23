@@ -82,19 +82,22 @@
 					blablablablablablablablablablablablablablablablablabla<br>
 					blablablablablablabla
 				</div>
-				<table align="center">
+				<table id="small-text" align="center">
 					<tr>
 						<td width=150>
+							<img class="leftimg" src="<?php bloginfo('template_directory'); ?>/images/random1.png"/>
 							lablabla<br>
 							lablabla<br>
 							lablabla<br>
 						</td>
 						<td width=150>
+							<img class="leftimg" src="<?php bloginfo('template_directory'); ?>/images/random2.png"/>
 							lablabla<br>
 							lablabla<br>
 							lablabla<br>
 						</td>
 						<td width=150>
+							<img class="leftimg" src="<?php bloginfo('template_directory'); ?>/images/random3.png"/>
 							lablabla<br>
 							lablabla<br>
 							lablabla<br>
@@ -132,25 +135,28 @@
 
 		</tr>
 			</td>
-				<table align="center">
+				<table id="small-text" align="center">
 					<tr>
 						<td width=150>
+							<img class="leftimg" src="<?php bloginfo('template_directory'); ?>/images/random4.png"/>
 							lablabla<br>
 							lablabla<br>
 							lablabla<br>
 						</td>
 						<td width=150>
+							<img class="leftimg" src="<?php bloginfo('template_directory'); ?>/images/random5.png"/>
 							lablabla<br>
 							lablabla<br>
 							lablabla<br>
 						</td>
 						<td width=150>
+							<img class="leftimg" src="<?php bloginfo('template_directory'); ?>/images/random6.png"/>
 							lablabla<br>
 							lablabla<br>
 							lablabla<br>
 						</td>
-					</tr>		
-				</table>				
+					</tr>
+				</table>			
 			</td>
 		</tr>
 		
@@ -162,22 +168,21 @@
 		
 		<tr>
 			<td>
-				<table align="center">			
+				<table id="small-text" align="center">
 					<tr>
 						<td width=150>
+							<img class="leftimg" src="<?php bloginfo('template_directory'); ?>/images/random7.png"/>
 							lablabla<br>
 							lablabla<br>
 							lablabla<br>
 						</td>
-						<td width=150>
-							lablabla<br>
-							lablabla<br>
+						<td width=150 valign="top">
 							lablabla<br>
 						</td>
-						<td width=150>
-							lablabla<br>
-							lablabla<br>
-							lablabla<br>
+						<td width=150 valign="top">				
+							harry<br>							
+							potter<br>
+							bob217<br>
 						</td>
 					</tr>
 				<table>
