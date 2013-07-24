@@ -31,16 +31,16 @@
 				<table id="big-text" align="center">
 					<tr>						
 						<td>
-							MAIN
+							<a class="link" href="/">MAIN</a>
 						</td>
 						<td>
-							ABOUT
+							<a class="link" href="#about">ABOUT</a>
 						</td>
 						<td>
-							SERVICES
+							<a class="link" href="#services">SERVICES</a>
 						</td>
 						<td>
-							CONTACTS
+							<a class="link" href="#contacts">CONTACTS</a>
 						</td>
 					</tr>
 				</table>
@@ -63,57 +63,16 @@
 			<td>
 				<img src="<?php bloginfo('template_directory'); ?>/images/line.png"/>
 			</td>
-		</tr>	
-		
-		<tr>
-			<td>		
-				<div id="big-text" align="center">
-					<b>ABOUT<b>
-				</div>
-				<div id="small-text" width=400>
-					blablablablablablablablablablablablablablablablablabla<br>
-					blablablablablablablablablablablablablablablablablabla<br>
-					blablablablablablablablablablablablablablablablablabla<br>
-					blablablablablablablablablablablablablablablablablabla<br>
-					blablablablablablablablablablablablablablablablablabla<br>
-					blablablablablablablablablablablablablablablablablabla<br>
-					blablablablablablablablablablablablablablablablablabla<br>
-					blablablablablablablablablablablablablablablablablabla<br>
-					blablablablablablablablablablablablablablablablablabla<br>
-					blablablablablablabla
-				</div>
-				<table id="small-text" align="center">
-					<tr>
-						<td width=150>
-							<img class="leftimg" src="<?php bloginfo('template_directory'); ?>/images/random1.png"/>
-							lablabla<br>
-							lablabla<br>
-							lablabla<br>
-						</td>
-						<td width=150>
-							<img class="leftimg" src="<?php bloginfo('template_directory'); ?>/images/random2.png"/>
-							lablabla<br>
-							lablabla<br>
-							lablabla<br>
-						</td>
-						<td width=150>
-							<img class="leftimg" src="<?php bloginfo('template_directory'); ?>/images/random3.png"/>
-							lablabla<br>
-							lablabla<br>
-							lablabla<br>
-						</td>
-					</tr>
-				</table>
-			</td>
 		</tr>
 		
-		<tr>
-			<td>
-				<img src="<?php bloginfo('template_directory'); ?>/images/line.png"/>
-			</td>
-		</tr>	
 		
-		<tr>
+		<?php if ( have_posts() ) { ?>
+			<?php while ( have_posts() ) : the_post(); ?>
+				<?php the_content(); ?>
+			<?php endwhile; ?>
+		<?php } ?>
+		
+		<tr id="services">
 			<td colspan=4>
 				<div id="big-text" align="center">
 					<b>SERVICES<b>
@@ -133,8 +92,8 @@
 			</td>
 		</tr>
 
-		</tr>
-			</td>
+		<tr>
+			<td>
 				<table id="small-text" align="center">
 					<tr>
 						<td width=150>
@@ -166,7 +125,7 @@
 			</td>
 		</tr>	
 		
-		<tr>
+		<tr id="contacts">
 			<td>
 				<table id="small-text" align="center">
 					<tr>
@@ -185,7 +144,7 @@
 							bob217<br>
 						</td>
 					</tr>
-				<table>
+				</table>
 			</td>
 		</tr>
 	</table>

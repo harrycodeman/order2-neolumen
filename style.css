@@ -21,3 +21,7 @@ font-size: 18px;
 float:left; /* Выравнивание по левому краю */
 margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
 }
+.link{
+color: white;
+text-decoration: none;
+}
