@@ -83,37 +83,9 @@
 						</table>
 					</td>
 				</tr>
-				
-				<tr>
-					<td>
-						<img src="<?php bloginfo('template_directory'); ?>/images/line.png"/>
-					</td>
-				</tr>
 			<?php endwhile; ?>
 		<?php } ?>
-		
-		<tr id="contacts">
-			<td>
-				<table id="small-text" align="center">
-					<tr>
-						<td width=150>
-							<img class="leftimg" src="<?php bloginfo('template_directory'); ?>/images/random7.png"/>
-							Улица<br>
-							Зварыгиной<br>
-							Татьяны<br>
-						</td>
-						<td width=150 valign="top">
-							Адрес<br>
-						</td>
-						<td width=150 valign="top">				
-							harry<br>							
-							potter<br>
-							bob217<br>
-						</td>
-					</tr>
-				</table>
-			</td>
-		</tr>
+
 	</table>
 </div>
 <?php get_footer(); ?>
