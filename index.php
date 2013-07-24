@@ -3,32 +3,6 @@
 <?php get_header(); ?>
 <div align="center">
 	<table width="800">
-		<tr>
-			<td>
-				<img src="<?php bloginfo('template_directory'); ?>/images/header.png"/>
-			</td>
-		</tr>
-
-		<tr>
-			<td>
-				<table id="big-text" align="center">
-					<tr>						
-						<td>
-							<a class="link" href="/">Главная</a>
-						</td>
-						<td>
-							<a class="link" href="#10">О нас</a>
-						</td>
-						<td>
-							<a class="link" href="#8">Услуги</a>
-						</td>
-						<td>
-							<a class="link" href="#contacts">Контакты</a>
-						</td>
-					</tr>
-				</table>
-			<td>
-		</tr>	
 		
 		<tr>
 			<td>
@@ -42,15 +16,14 @@
 			</td>
 		</tr>
 
-		<tr>
-			<td>
-				<img src="<?php bloginfo('template_directory'); ?>/images/line.png"/>
-			</td>
-		</tr>
-		
-		
 		<?php if ( have_posts() ) { ?>
-			<?php while ( have_posts() ) : the_post(); ?>
+			<?php while ( have_posts() ) : the_post(); ?>				
+				<tr>
+					<td>
+						<img src="<?php bloginfo('template_directory'); ?>/images/line.png"/>
+					</td>
+				</tr>
+				
 				<tr id="<?php the_ID(); ?>">
 					<td>
 						<div id="big-text" align="center">
@@ -85,7 +58,6 @@
 				</tr>
 			<?php endwhile; ?>
 		<?php } ?>
-
 	</table>
 </div>
 <?php get_footer(); ?>
