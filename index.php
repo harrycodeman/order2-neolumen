@@ -2,6 +2,7 @@
 <body>
 <?php get_header(); ?>
 <div align="center">
+
 	<table width="800">
 		
 		<tr>
@@ -12,7 +13,23 @@
 		
 		<tr>
 			<td>
-				<img src="<?php bloginfo('template_directory'); ?>/images/image.png"/>
+				<!-- Place somewhere in the <body> of your page -->
+			  <div class="flexslider">
+				  <ul class="slides">
+					<li>
+						<img src="<?php bloginfo('template_directory'); ?>/images/slide.jpg" />
+						</li>
+						<li>
+						<img src="<?php bloginfo('template_directory'); ?>/images/slide2.jpg" />
+						</li>
+						<li>
+						<img src="<?php bloginfo('template_directory'); ?>/images/slide3.jpg" />
+						</li>
+						<li>
+						<img src="<?php bloginfo('template_directory'); ?>/images/slide4.jpg" />
+						</li>
+				  </ul>
+				</div>
 			</td>
 		</tr>
 
