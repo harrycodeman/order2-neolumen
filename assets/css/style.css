@@ -459,7 +459,7 @@ body.yoopage {
 }
 
 #page-footer {
-    background: url("/imagesDefault/page_footer_bg.jpg") /*tpa=http://www.yootheme.com/demo/themes/wordpress/2011/spark/wp-content/themes/yoo_spark_wp/images/page_footer_bg.jpg*/ 0 0 repeat-x
+    background: url("/imagesDefault/page_footer_bg.jpg") 0 0 repeat-x
 }
 
 #absolute {
@@ -2197,7 +2197,7 @@ button.reset {
 
 #searchbox .loading
 button.reset {
-    background: url("/imagesDefault/searchbox_loader.gif") /*tpa=http://www.yootheme.com/demo/themes/wordpress/2011/spark/wp-content/themes/yoo_spark_wp/warp/images/searchbox_loader.gif*/ 50% 50% no-repeat
+    background: url("/imagesDefault/searchbox_loader.gif") 50% 50% no-repeat
 }
 
 #searchbox
@@ -3568,35 +3568,35 @@ p {
     width: 850px;
     height: 245px;
     margin: -10px;
-    background: url("/imagesDefault/home_bottom.jpg") /*tpa=http://www.yootheme.com/demo/themes/wordpress/2011/spark/wp-content/images/yootheme/home_bottom.jpg*/ 0 0 no-repeat
+    background: url("/imagesDefault/home_bottom.jpg") 0 0 no-repeat
 }
 
 .style-red
 .homebottomimage {
-    background: url("/imagesDefault/home_bottom_red.jpg") /*tpa=http://www.yootheme.com/demo/themes/wordpress/2011/spark/wp-content/images/yootheme/home_bottom_red.jpg*/ 0 0 no-repeat
+    background: url("/imagesDefault/home_bottom_red.jpg") 0 0 no-repeat
 }
 
 .style-green
 .homebottomimage {
-    background: url("/imagesDefault/home_bottom_green.jpg") /*tpa=http://www.yootheme.com/demo/themes/wordpress/2011/spark/wp-content/images/yootheme/home_bottom_green.jpg*/ 0 0 no-repeat
+    background: url("/imagesDefault/home_bottom_green.jpg") 0 0 no-repeat
 }
 
 .style-brown
 .homebottomimage {
-    background: url("/imagesDefault/home_bottom_brown.jpg") /*tpa=http://www.yootheme.com/demo/themes/wordpress/2011/spark/wp-content/images/yootheme/home_bottom_brown.jpg*/ 0 0 no-repeat
+    background: url("/imagesDefault/home_bottom_brown.jpg") 0 0 no-repeat
 }
 
 .style-pink
 .homebottomimage {
-    background: url("/imagesDefault/home_bottom_pink.jpg") /*tpa=http://www.yootheme.com/demo/themes/wordpress/2011/spark/wp-content/images/yootheme/home_bottom_pink.jpg*/ 0 0 no-repeat
+    background: url("/imagesDefault/home_bottom_pink.jpg") 0 0 no-repeat
 }
 
 .style-lilac
 .homebottomimage {
-    background: url("/imagesDefault/home_bottom_lilac.jpg") /*tpa=http://www.yootheme.com/demo/themes/wordpress/2011/spark/wp-content/images/yootheme/home_bottom_lilac.jpg*/ 0 0 no-repeat
+    background: url("/imagesDefault/home_bottom_lilac.jpg") 0 0 no-repeat
 }
 
 .style-turquoise
 .homebottomimage {
-    background: url("/imagesDefault/home_bottom_turquoise.jpg") /*tpa=http://www.yootheme.com/demo/themes/wordpress/2011/spark/wp-content/images/yootheme/home_bottom_turquoise.jpg*/ 0 0 no-repeat
+    background: url("/imagesDefault/home_bottom_turquoise.jpg") 0 0 no-repeat
 }
