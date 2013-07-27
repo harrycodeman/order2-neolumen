@@ -3070,6 +3070,62 @@ div#comments .comment-byadmin .comment-head {
     background-image: url("/imagesDefault/wings_img.png")
 }
 
+.background-wings #page-body {
+    background-image: url("/imagesDefault/wings_bg.jpg")
+}
+
+.background-wings.style-red #page-body {
+    background-image: url("/imagesDefault/wings_bg-1.jpg")
+}
+
+.background-wings.style-green #page-body {
+    background-image: url("/imagesDefault/wings_bg-2.jpg")
+}
+
+.background-wings.style-brown #page-body {
+    background-image: url("/imagesDefault/wings_bg-3.jpg")
+}
+
+.background-wings.style-pink #page-body {
+    background-image: url("/imagesDefault/wings_bg-4.jpg")
+}
+
+.background-wings.style-lilac #page-body {
+    background-image: url("/imagesDefault/wings_bg-5.jpg")
+}
+
+.background-wings.style-turquoise #page-body {
+    background-image: url("/imagesDefault/wings_bg-6.jpg")
+}
+
+.background-wings.nobganimation #page-body {
+    background-image: url("/imagesDefault/wings_bg_static.jpg")
+}
+
+.background-wings.style-red.nobganimation #page-body {
+    background-image: url("/imagesDefault/wings_bg_static-1.jpg")
+}
+
+.background-wings.style-green.nobganimation #page-body {
+    background-image: url("/imagesDefault/wings_bg_static-2.jpg")
+}
+
+.background-wings.style-brown.nobganimation #page-body {
+    background-image: url("/imagesDefault/wings_bg_static-3.jpg")
+}
+
+.background-wings.style-pink.nobganimation #page-body {
+    background-image: url("/imagesDefault/wings_bg_static-4.jpg")
+}
+
+.background-wings.style-lilac.nobganimation #page-body {
+    background-image: url("/imagesDefault/wings_bg_static-5.jpg")
+}
+
+.background-wings.style-turquoise.nobganimation #page-body {
+    background-image: url("/imagesDefault/wings_bg_static-6.jpg")
+}
+
 .background-disco #page-body .page-body-1 {
     background-image: url("/imagesDefault/disco_img.png");
     background-size: 1920px;
@@ -3258,6 +3314,62 @@ div#comments .comment-byadmin .comment-head {
 
 .background-spotlights #page-body .page-body-1 {
     background-image: url("/imagesDefault/spotlights_img.png")
+}
+
+.background-spotlights #page-body {
+    background-image: url("/imagesDefault/spotlights_bg.jpg")
+}
+
+.background-spotlights.style-red #page-body {
+    background-image: url("/imagesDefault/spotlights_bg-1.jpg")
+}
+
+.background-spotlights.style-green #page-body {
+    background-image: url("/imagesDefault/spotlights_bg-2.jpg")
+}
+
+.background-spotlights.style-brown #page-body {
+    background-image: url("/imagesDefault/spotlights_bg-3.jpg")
+}
+
+.background-spotlights.style-pink #page-body {
+    background-image: url("/imagesDefault/spotlights_bg-4.jpg")
+}
+
+.background-spotlights.style-lilac #page-body {
+    background-image: url("/imagesDefault/spotlights_bg-5.jpg")
+}
+
+.background-spotlights.style-turquoise #page-body {
+    background-image: url("/imagesDefault/spotlights_bg-6.jpg")
+}
+
+.background-spotlights.nobganimation #page-body {
+    background-image: url("/imagesDefault/spotlights_bg_static.jpg")
+}
+
+.background-spotlights.style-red.nobganimation #page-body {
+    background-image: url("/imagesDefault/spotlights_bg_static-1.jpg")
+}
+
+.background-spotlights.style-green.nobganimation #page-body {
+    background-image: url("/imagesDefault/spotlights_bg_static-2.jpg")
+}
+
+.background-spotlights.style-brown.nobganimation #page-body {
+    background-image: url("/imagesDefault/spotlights_bg_static-3.jpg")
+}
+
+.background-spotlights.style-pink.nobganimation #page-body {
+    background-image: url("/imagesDefault/spotlights_bg_static-4.jpg")
+}
+
+.background-spotlights.style-lilac.nobganimation #page-body {
+    background-image: url("/imagesDefault/spotlights_bg_static-5.jpg")
+}
+
+.background-spotlights.style-turquoise.nobganimation #page-body {
+    background-image: url("/imagesDefault/spotlights_bg_static-6.jpg")
 }
 
 .nobganimation #page-body {

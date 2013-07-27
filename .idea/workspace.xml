@@ -28,55 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="spotlight_fade_zoom.png" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imagesDefault/spotlight_fade_zoom.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="logo.png" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imagesDefault/logo.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jellyfish_img.png" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imagesDefault/jellyfish_img.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footermenu_item_bg.png" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imagesDefault/footermenu_item_bg.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer_anchor.png" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imagesDefault/footer_anchor.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="disco_img.png" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imagesDefault/disco_img.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="unknown.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/js/unknown.js">
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="20" selection-start="999" selection-end="1000" vertical-scroll-proportion="0.4224">
-              <folding>
-                <marker date="1374939970073" expanded="false" signature="29256:29284" placeholder="..." />
-              </folding>
+            <state line="3099" column="0" selection-start="50631" selection-end="50631" vertical-scroll-proportion="0.53846157">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -440,34 +396,12 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3261" column="0" selection-start="55441" selection-end="55441" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/imagesDefault/spotlights_img.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/imagesDefault/spotlight_fade_zoom.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imagesDefault/logo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imagesDefault/jellyfish_img.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imagesDefault/footermenu_item_bg.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -484,10 +418,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/unknown.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="20" selection-start="999" selection-end="1000" vertical-scroll-proportion="0.4224">
+        <state line="24" column="28" selection-start="999" selection-end="1000" vertical-scroll-proportion="-9.2">
           <folding>
-            <marker date="1374939970073" expanded="false" signature="29256:29284" placeholder="..." />
+            <marker date="1374939970073" expanded="false" signature="-1:-1" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imagesDefault/footermenu_item_bg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imagesDefault/jellyfish_img.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imagesDefault/logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3099" column="0" selection-start="50631" selection-end="50631" vertical-scroll-proportion="0.53846157">
+          <folding />
         </state>
       </provider>
     </entry>
