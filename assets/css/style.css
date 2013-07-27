@@ -21,7 +21,8 @@ body {
 
 p {
     margin-top: 10px;
-    margin-bottom: 15px
+    margin-bottom: 15px;
+    text-align: justify;
 }
 
 ul, ol, dl {
@@ -105,7 +106,7 @@ textarea:focus, input[type='text']:focus, input[type='password']:focus, select:f
 }
 
 h1, h2, h3, h4, h5, h6 {
-    margin-bottom: 10px;
+    margin-bottom: 40px;
     font-weight: normal
 }
 
@@ -210,11 +211,11 @@ textarea:focus, input[type='text']:focus, input[type='password']:focus, select:f
 }
 
 hr {
-    border-top: 2px dotted #fff;
+    border-top: 1px dotted #fff;
     color: #fff;
     background-color: transparent;
     height: 1px;
-    width:100%;
+    width: 100%;
 }
 
 blockquote {
@@ -234,9 +235,9 @@ acronym, abbr {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 13px;
+    font-size: 16px;
     line-height: 150%;
-    color: #969FAA;
+    color: #fff;
     position: relative
 }
 
@@ -318,8 +319,9 @@ body {
 }
 
 #maintop, #contenttop {
-    margin: 0px 0px 0px 0px;
-    overflow: hidden
+    overflow: hidden;
+    width: 850px;
+    margin: 0 auto;
 }
 
 #contentbottom, #mainbottom {
@@ -510,15 +512,15 @@ body.yoopage {
 div.menubar {
     position: absolute;
     bottom: 0px;
-    left: 0px;
+    left: 110px;
     right: 0px;
-    height: 35px
-;
+    height: 35px;
 }
 
 #menu {
     position: relative;
-    margin: 0px auto;}
+    margin: 0px auto;
+}
 
 #banner {
     position: absolute;
@@ -605,12 +607,12 @@ h6 {
 }
 
 h1 {
-    font-size: 24px;
-    line-height: 26px
+    font-size: 44px;
+    line-height: 44px;
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 28px;
     line-height: 24px
 }
 
@@ -862,7 +864,8 @@ body .inset-right {
 .webfonts #system
 .title {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-    letter-spacing: 0px}
+    letter-spacing: 0px
+}
 
 .webfonts #menu a.level1 span.bg,
 .webfonts #menu span.level1 span.bg,
@@ -870,7 +873,8 @@ body .inset-right {
 .webfonts .module h3.header span.title,
 .webfonts div.mod-line-header-center h3.header
 span.subtitle {
-    font-size: 34px;}
+    font-size: 34px;
+}
 
 .webfonts #menu a.level1 span.subtitle,
 .webfonts #menu span.level1
@@ -883,7 +887,8 @@ span.subtitle {
 .webfonts #menu li.remain .level1 span.bg,
 .webfonts #menu li.active .level1
 span.bg {
-    background-position: 0 33px}
+    background-position: 0 33px
+}
 
 .webfonts #menu a.level1 span.title,
 .webfonts #menu span.level1
@@ -1106,7 +1111,8 @@ li.level1 {
 #menu
 span.level1 {
     float: left;
-    margin: 0px 55px 0px 55px;}
+    margin: 0px 55px 0px 55px;
+}
 
 #menu .first a.level1,
 #menu .first
@@ -1123,7 +1129,8 @@ span.bg {
     line-height: 35px;
     font-size: 24px;
     color: #F0F4F9;
-    letter-spacing: -1px;}
+    letter-spacing: -1px;
+}
 
 #menu li.level1:hover .level1 span.bg,
 #menu li.remain .level1 span.bg,
@@ -1134,8 +1141,7 @@ span.bg {
 
 #menu li.active .level1
 span.bg {
-    color: #FFF
-;
+    color: #FFF;
     font-weight: lighter;
 }
 
@@ -1552,8 +1558,8 @@ span.subtitle {
 #mainbottom .module,
 #bottom
 .module {
-    padding-left: 15px;
-    padding-right: 15px
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 #left .module,
@@ -1859,7 +1865,7 @@ div.mod-polaroid div.badge-tape {
     width: 114px;
     height: 38px;
     margin-left: -57px;
-    background: url("/imagesDefault/module_polaroid_tape.png")  0 0 no-repeat;
+    background: url("/imagesDefault/module_polaroid_tape.png") 0 0 no-repeat;
     z-index: 1
 }
 
@@ -3121,8 +3127,7 @@ div#comments .comment-byadmin .comment-head {
 }
 
 .background-disco #page-body .page-body-1 {
-    background-image: url("/imagesDefault/disco_img.png")
-;
+    background-image: url("/imagesDefault/disco_img.png");
     background-size: 1920px;
 }
 
@@ -3131,8 +3136,7 @@ div#comments .comment-byadmin .comment-head {
 }
 
 .background-disco.style-red #page-body {
-    background-image: url("/imagesDefault/disco_bg-1.jpg")
-;
+    background-image: url("/imagesDefault/disco_bg-1.jpg");
     background-size: 570px;
 }
 
@@ -3413,7 +3417,7 @@ span.subtitle {
 }
 
 h2, h4, h6 {
-    color: #A0C373
+    color: #fff;
 }
 
 #menu li.level2 .current
@@ -3444,14 +3448,14 @@ span.bg {
 }
 
 div.mod-frame-glitter div.box-1 {
-    background-image: url("/imagesDefault/module_frame_glitter_bg-2.png") ;
+    background-image: url("/imagesDefault/module_frame_glitter_bg-2.png");
     -moz-box-shadow: 0 0 20px rgba(145, 180, 80, 0.3);
     -webkit-box-shadow: 0 0 20px rgba(145, 180, 80, 0.3);
     box-shadow: 0 0 20px rgba(145, 180, 80, 0.3)
 }
 
 div.mod-frame-glitter div.box-2 {
-    background-image: url("/imagesDefault/module_frame_glitter_top-2.png")
+    background: url("/imagesDefault/module_frame_glitter_bg-6.png");
 }
 
 div.mod-line h3.header
@@ -3475,7 +3479,8 @@ span.subtitle {
     width: 512px;
     height: 215px;
     margin-left: -256px;
-    background: url("/imagesDefault/logo.png") 0 0 no-repeat}
+    background: url("/imagesDefault/logo.png") 0 0 no-repeat
+}
 
 #toolbar a.rss,
 #toolbar
@@ -3602,4 +3607,60 @@ p {
 .style-turquoise
 .homebottomimage {
     background: url("/imagesDefault/home_bottom_turquoise.jpg") 0 0 no-repeat
+}
+
+.about-us,
+.services,
+.footer {
+    width: 850px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.center {
+    text-align: center;
+}
+
+.horizontal {
+    display: inline-block;
+}
+
+.top {
+    vertical-align: top;
+}
+
+.footer .column1 {
+
+}
+
+.footer .column2 {
+    float: right;
+}
+
+.footer .column3 {
+    float: right;
+}
+
+.footer p {
+    font-size: 14px;
+    margin: 0 0 10px 7px;
+}
+
+.footer h4 {
+    font-size: 14px;
+    font-weight: bolder;
+    margin: 20px 0;
+}
+
+.up-button {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    padding: 20px;
+}
+
+.up-button:hover {
+    text-decoration: none;
+    background: #000;
+    opacity: 0.8;
 }

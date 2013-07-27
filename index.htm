@@ -8,7 +8,11 @@
 
     <link rel="shortcut icon" href="/images/favicon.ico"/>
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript" src="http://maps.api.2gis.ru/1.0"></script>
+    <script type="text/javascript" src="/assets/js/map.js"></script>
+    <script src="/assets/js/jquery.flexslider.js"></script>
+    <script src="/assets/js/scroll.js"></script>
 
     <style type="text/css">.recentcomments a {
         display: inline !important;
@@ -24,15 +28,15 @@
     <!-- slider-->
     <link rel="stylesheet" href="/assets/css/flexslider.css" type="text/css">
 
-    <script src="/assets/js/jquery.flexslider.js"></script>
+
     <!-- slider end-->
     <script type="text/javascript" charset="utf-8">
-        $(window).load(function() {
+        $(window).load(function () {
             $('.flexslider').flexslider({
                 animation: "slide",
-                itemwWidth: 980,
+                itemWidth: 980,
                 itemHeigh: 400,
-                start: function(slider){
+                start: function (slider) {
                     $('body').removeClass('loading');
 
                 }
@@ -42,11 +46,11 @@
 
 
     <style type="text/css">body {
-        min-width: 1000px;
+        min-width: 1200px;
     }
 
     .wrapper {
-        width: 1000px;
+        width: 1200px;
     }
 
     #content-shift {
@@ -93,8 +97,6 @@
 <div id="header">
 
     <div id="headerbar">
-
-
     </div>
 
 
@@ -107,22 +109,22 @@
         <div id="menu">
             <ul id="menu-menu" class="menu menu-dropdown">
                 <li class="active level1 item1 first parent">
-                    <a href="index.htm" class="level1 item1 first parent active">
+                    <a rel="" class="level1 item1 first parent active">
                         <span class="bg">Главная</span>
                     </a>
                 </li>
                 <li class="level1 item2 parent">
-                    <a href="" class="level1 item2 parent">
+                    <a href="#about_us_tab" class="level1 item2 parent">
                         <span class="bg">О нас</span>
                     </a>
                 </li>
                 <li class="level1 item3">
-                    <a href=""class="level1 item3">
-                    <span class="bg">Услуги</span>
+                    <a href="#services_tab" class="level1 item3">
+                        <span class="bg">Услуги</span>
                     </a>
                 </li>
                 <li class="level1 item4 last parent">
-                    <a href="" class="level1 item4 last parent">
+                    <a href="#footer_tab" class="level1 item4 last parent">
                         <span class="bg">Контакты</span>
                     </a>
                 </li>
@@ -132,24 +134,30 @@
 </div>
 <!-- header end -->
 
+<br/>
 <hr/>
+<br/><br/>
 
 <div class="flexslider">
     <ul class="slides">
         <li>
-            <img src="/images/slider/slide.jpg" />
+            <img src="/images/slider/slide.png"/>
+
             <p class="flex-caption">Captions and cupcakes. Winning combination.</p>
         </li>
         <li>
-            <img src="/images/slider/slide2.jpg" />
+            <img src="/images/slider/slide4.png"/>
+
             <p class="flex-caption">Captions and cupcakes. Winning combination.</p>
         </li>
         <li>
-            <img src="/images/slider/slide3.jpg" />
+            <img src="/images/slider/slide3.png"/>
+
             <p class="flex-caption">Captions and cupcakes. Winning combination.</p>
         </li>
         <li>
-            <img src="/images/slider/slide4.jpg" />
+            <img src="/images/slider/slide2.png"/>
+
             <p class="flex-caption">Captions and cupcakes. Winning combination.</p>
         </li>
     </ul>
@@ -157,33 +165,67 @@
 
 <hr/>
 
-<div class="middle-wrapper">
-<div id="middle">
-<div id="middle-expand">
+<div id="about_us_tab"></div>
 
-<div id="main">
-<div id="main-shift">
+<div class="about-us">
+    <h1 class="title center">О нас</h1>
 
-<div id="maintop">
-    <div class="horizontal float-left width67 separator">
-        <div class="module mod-frame mod-frame-glitter  first ">
+    <div class="content"><p>Наша фирма занимается лазерной рекламой – это
+        лазерное шоу, представляющее проекцию ярких, красочных, незабываемых
+        анимационных роликов с использованием лазерных установок. С помощью
+        таких установок можно проецировать любые изображения (логотипы компаний,
+        изображение торговых марок, продуктов и т.д.) и рекламные ролики на
+        плоские объекты (фасады зданий, стены помещений и т.п.) Так же можно
+        осуществлять лазерные шоу на различных мероприятиях проецируя
+        поздравления, яркую цветомузыку и т.д. Лазерные установки позволяют
+        демонстрировать изображения и рекламные ролики в широком формате, что,
+        безусловно, добавляет масштабности и фееричности рекламной акции и
+        праздничному мероприятию.</p>
+    </div>
+
+</div>
+
+<br/>
+<hr/>
+
+<div id="services_tab"></div>
+
+<div class="services">
+    <h1 class="title center">Услуги</h1>
 
 
+    <div class="width100">
+        <div class="module mod-frame mod-frame-glitter  first">
             <div class="box-1">
                 <div class="box-2">
                     <div class="box-3 deepest">
 
 
-                        <div class="spotlight bottom" style="margin: -10px;">
-                            <img src="imagesDefault/home_maintop1_spotlight.jpg"
+                        <div class="spotlight bottom" style="margin: 0px 10px;">
+                            <h2 class="title center">Лазерное шоу реклама</h2>
 
-                                 width="553" height="300" alt="spotlight"/>
+                            <p>
+                                Лазерное шоу реклама до 1000 м2, в 5-ти минутном
+                                блоке. Количество
+                                показов за месяц - 2976 раз.
+                            <ul>
+                                <li>длительностью 5 сек. - Стоимость 5000 р\месяц
+                                </li>
+                                <li>длительностью 10 сек. - Стоимость 10000
+                                    р\месяц
+                                </li>
+                                <li>длительностью 15 сек. - Стоимость 15000
+                                    р\месяц
+                                </li>
+                                <li>длительностью 30 сек. - Стоимость 30000
+                                    р\месяц
+                                </li>
+                            </ul>
+                            Стоимость изготовления Лазерного шоу ролика 2000-5000 р.
+                            Стоимость изготовления бегущей строки для поздравления
+                            500 р.
+                            </p>
 
-                            <div>
-                                <h3>New in Stores</h3>
-
-                                <p>Our new Spring collection is available now!</p>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -191,25 +233,60 @@
 
         </div>
     </div>
-    <div class="horizontal float-left width33">
+    <br/>
+
+    <div class="width100">
         <div class="module mod-frame mod-frame-glitter   last">
-
-
             <div class="box-1">
                 <div class="box-2">
                     <div class="box-3 deepest">
+                        <div class="spotlight bottom" style="margin: 0px 10px;">
+                            <h2 class="title center">Программа для праздничных
+                                мероприятий</h2>
 
+                            <p>Программа для ЗАГСа. Мы предлагаем два лазерных шоу.
+                                Стоимость
+                                пакета от
+                                5000 до 10000 руб. Торжественный вход в зал
+                                бракосочетания
+                                (лазерное шоу
+                                под марш Мендельсона) все нюансы и пожелания
+                                обговариваются
+                                непосредственно с заказчиком.
 
-                        <div class="spotlight bottom" style="margin: -10px;">
-                            <img src="imagesDefault/home_maintop2_spotlight.jpg"
-
-                                 width="247" height="300" alt="spotlight"/>
-
-                            <div>
-                                <h3>For Men</h3>
-
-                                <p>Exclusive store now opened!</p>
-                            </div>
+                            <ul>
+                                <li>Церемония поздравления молодоженов гостями (
+                                    лазерное шоу -
+                                    история
+                                    знакомства молодых или романтическая история
+                                    любви) все
+                                    нюансы и
+                                    пожелания обговариваются непосредственно с
+                                    заказчиком.
+                                </li>
+                                <li>Для банкетного зала. Стоимость пакета 10000
+                                    руб.:
+                                    Торжественное
+                                    лазерное шоу - вход новобрачных в банкетный зал
+                                    Лазерное шоу
+                                    - первый
+                                    танец новобрачных ( лазерное шоу - история
+                                    знакомства
+                                    молодых или
+                                    романтическая история любви) Лазерное шоу,
+                                    дискотека с
+                                    лазерными
+                                    эффектами и дым машиной (оплачивается отдельно,
+                                    от 10000
+                                    руб. )
+                                </li>
+                                <li>Лазерное тематическое шоу Расчёт стоимости
+                                    индивидуальный,
+                                    зависит от
+                                    опций, включённых в мероприятие.
+                                </li>
+                            </ul>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -220,292 +297,64 @@
 </div>
 <!-- maintop end -->
 
-<div id="mainmiddle">
-    <div id="mainmiddle-expand">
+<br/>
+<hr/>
+<br/>
 
-        <div id="content">
-            <div id="content-shift">
+<div id="footer_tab"></div>
 
-
-                <div id="component" class="floatbox">
-                    <div id="system">
-
-
-                        <div class="item">
-
-                            <h1 class="title">Spark Theme</h1>
-
-                            <div class="content"><p>Happy New Year 2011 guys! We are starting the
-                                2011 theme collection with our new &#8220;Spark&#8221; theme.
-                                Inspired by all the sparks and glows of new years fireworks its
-                                glamourous look fits perfect for fashion or nightlife websites.</p>
-
-                                <p>Spark is a dark themed template which comes with a light and
-                                    clean designed layout. The theme backgrounds are animated with
-                                    some spectacular glitter and glow effects. We used different
-                                    image masks and background tiles which are smoothly animated
-                                    with JavaScript for the theme variations. These shiny background
-                                    effects are a real eye-catcher! If you like it simple with no
-                                    background animations you can easily turn them off in the theme
-                                    configuration.</p>
-
-
-                                <div class="floatbox"><a href="-preset=preset04.htm"
-
-                                                         style="display: block; float: left; margin-right: 35px;"><img
-                                        src="imagesDefault/home_news_preset1.jpg"
-
-                                        width="80" height="101" alt="Load Preset: Disco Red"
-                                        title="Load Preset: Disco Red"/></a><a
-                                        href="-preset=preset06.htm"
-
-                                        style="display: block; float: left; margin-right: 35px;"><img
-                                        src="imagesDefault/home_news_preset2.jpg"
-
-                                        width="80" height="101" alt="Load Preset: Jellyfish Blue"
-                                        title="Load Preset: Jellyfish Blue"/> </a><a
-                                        href="-preset=preset08.htm"
-
-                                        style="display: block; float: left; margin-right: 35px;"><img
-                                        src="imagesDefault/home_news_preset3.jpg"
-
-                                        width="80" height="101" alt="Load Preset: Nebula Green"
-                                        title="Load Preset: Nebula Green"/></a><a
-                                        href="-preset=preset03.htm"
-
-                                        style="display: block; float: left; margin-right: 35px;"><img
-                                        src="imagesDefault/home_news_preset4.jpg"
-
-                                        width="80" height="101"
-                                        alt="Load Preset: Wings Turquoise Red"
-                                        title="Load Preset: Wings Turquoise Red"/></a><a
-                                        href="-preset=preset10.htm"
-
-                                        style="display: block; float: left;"><img
-                                        src="imagesDefault/home_news_preset5.jpg"
-
-                                        width="80" height="101" alt="Load Preset: Spotlights Lilac"
-                                        title="Load Preset: Spotlights Lilac"/></a></div>
-
-                                <a style="margin-top:15px;" target="_parent"
-                                   href="javascript:if(confirm(%27http://www.yootheme.com/demo/themes/wordpress/2011/spark/?p=57  \n\nThis file was not retrieved by Teleport Pro, because it is linked too far away from its Starting Address. If you increase the in-domain depth setting for the Starting Address, this file will be queued for retrieval.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.yootheme.com/demo/themes/wordpress/2011/spark/?p=57%27"
-
-                                   class="readmore">Continue Reading</a>
-                            </div>
-
-
-                        </div>
-
-
-                    </div>
-                </div>
-
-
-            </div>
-        </div>
-        <!-- content end -->
-
-
-        <div id="contentright" class="vertical">
-            <div class="contentright-1"></div>
-            <div class="module mod-line   first ">
-
-
-                <div class="box-1 deepest">
-
-                    <h3 class="header"><span class="header-2"><span class="header-3"><span
-                            class="color">Warp</span> 5.5 Features</span></span></h3>
-
-                    <ul class="links" style="margin: 0;">
-                        <li>
-                            <a href="javascript:if(confirm(%27https://www.yootheme.com/blog/item/root/stay-fresh-with-warp  \n\nThis file was not retrieved by Teleport Pro, because it is addressed using an unsupported protocol (e.g., gopher).  \n\nDo you want to open it from the server?%27))window.location=%27https://www.yootheme.com/blog/item/root/stay-fresh-with-warp%27"
-
-                               target="_blank">Update notifications and File verification</a></li>
-                        <li>
-                            <a href="javascript:if(confirm(%27https://www.yootheme.com/blog/item/root/stay-fresh-with-warp  \n\nThis file was not retrieved by Teleport Pro, because it is addressed using an unsupported protocol (e.g., gopher).  \n\nDo you want to open it from the server?%27))window.location=%27https://www.yootheme.com/blog/item/root/stay-fresh-with-warp%27"
-
-                               target="_blank">Ajax powered real time search results</a></li>
-                        <li>
-                            <a href="javascript:if(confirm(%27https://www.yootheme.com/blog/item/root/new-warp-55-framework  \n\nThis file was not retrieved by Teleport Pro, because it is addressed using an unsupported protocol (e.g., gopher).  \n\nDo you want to open it from the server?%27))window.location=%27https://www.yootheme.com/blog/item/root/new-warp-55-framework%27"
-
-                               target="_blank">CSS/JS/Image Compression</a></li>
-                        <li>
-                            <a href="javascript:if(confirm(%27http://www.yootheme.com/warp/menu-system  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.yootheme.com/warp/menu-system%27"
-                                    >Powerful
-                                Menu System</a></li>
-                    </ul>
-                </div>
-
-            </div>
-            <div class="module mod-line    last">
-
-
-                <div class="box-1 deepest">
-
-                    <h3 class="header"><span class="header-2"><span class="header-3"><span
-                            class="color">E-Commerce</span> Icons</span></span></h3>
-
-                    <a href="javascript:if(confirm(%27https://www.yootheme.com/blog/item/root/ecommerce1-icon-set  \n\nThis file was not retrieved by Teleport Pro, because it is addressed using an unsupported protocol (e.g., gopher).  \n\nDo you want to open it from the server?%27))window.location=%27https://www.yootheme.com/blog/item/root/ecommerce1-icon-set%27"
-
-                       target="_blank" style="display: block;">
-                        <img src="imagesDefault/home_icons_ecommerce.png"
-
-                             alt="New E-Commerce Icon Set" title="New E-Commerce Icon Set"
-                             width="267" height="100"/>
-                    </a>
-                </div>
-
-            </div>
-        </div>
-
+<div class="footer">
+    <div class="horizontal top center width33">
+        <div class="column1" id="myMapId" style="width:280px; height:280px"></div>
     </div>
-</div>
-<!-- mainmiddle end -->
+    <div class="horizontal top width33">
+        <div class="column2">
+            <h4>Оставайтесь на связи</h4>
 
-
-</div>
-</div>
-
-
-</div>
-</div>
-</div>
-
-<div id="bottom">
-
-    <div class="horizontal float-left width33 separator">
-        <div class="module mod-frame   first ">
-
-
-            <div class="box-1">
-                <div class="box-2">
-                    <div class="box-3 deepest">
-
-
-                        <div class="spotlight fade color" style="margin: -10px;">
-                            <img src="imagesDefault/home_bottom1_spotlight.jpg"
-
-                                 width="247" height="170" alt="spotlight"/>
-
-                            <div>
-
-                                <h3><span class="subtitle">Lovely</span><span class="title">Haut Couture</span></h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <table>
+                <tr>
+                    <td class="top center"><img src="/images/vk_icon.png"></td>
+                    <td><p>Добавь нас на Вконтакте</p></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="horizontal top width33">
+        <div class="column3">
+            <h4>Контактная информация</h4>
+            <table>
+                <tr>
+                    <td class="top center"><img style="margin-top: 3px;" src="/images/address_icon.png"></td>
+                    <td><p>Россия, Сургут</p></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><p>Университетская 25/2</p></td>
+                </tr>
+                <tr>
+                    <td class="top center"><img style="margin-top: 4px;" src="/images/phone_icon.png"></td>
+                    <td><p>9-987-654-32-10</p></td>
+                </tr>
+                <tr>
+                    <td class="top center"><img style="margin-top: 7px;" src="/images/mail_icon.png"></td>
+                    <td><p>contact@example.com</p></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><a class="up-button" href="#page">Наверх ↑</a></td>
+                </tr>
+            </table>
 
         </div>
     </div>
-    <div class="horizontal float-left width34 separator">
-        <div class="module mod-frame    ">
-
-
-            <div class="box-1">
-                <div class="box-2">
-                    <div class="box-3 deepest">
-
-
-                        <div class="spotlight fade color" style="margin: -10px;">
-                            <img src="imagesDefault/home_bottom2_spotlight.jpg"
-
-                                 width="256" height="170" alt="spotlight"/>
-
-                            <div>
-                                <h3><span class="subtitle">Elegant</span><span class="title">Black Label</span></h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-    <div class="horizontal float-left width33">
-        <div class="module mod-frame    last">
-
-
-            <div class="box-1">
-                <div class="box-2">
-                    <div class="box-3 deepest">
-
-
-                        <div class="spotlight fade color" style="margin: -10px;">
-                            <img src="imagesDefault/home_bottom3_spotlight.jpg"
-
-                                 width="247" height="170" alt="spotlight"/>
-
-                            <div>
-                                <h3><span class="subtitle">Selected</span><span class="title">Footwear</span></h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-    <div class="vertical width100">
-        <div class="module mod-frame   first last">
-
-
-            <div class="box-1">
-                <div class="box-2">
-                    <div class="box-3 deepest">
-
-
-                        <div class="homebottomimage"></div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-
-</div>
-<!-- bottom end -->
-
-
-</div>
-
 </div>
 </div>
-
 </div>
-<div id="page-footer">
-    <div class="wrapper">
-
-        <div id="footer">
-
-            <a class="anchor" href="#page"></a>
-            <ul id="menu-top-menu-1" class="menu menu-accordion">
-                <li class="level1 item1 first"><a href="-cat=5.htm"
-
-                                                  class="level1 item1 first"><span class="bg">Themes</span></a></li>
-                <li class="level1 item2"><a href="-cat=9.htm"
-
-                                            class="level1 item2"><span class="bg">Warp</span></a></li>
-                <li class="level1 item3 last"><a href="-cat=4.htm"
-
-                                                 class="level1 item3 last"><span class="bg">Icons</span></a></li>
-            </ul>
-            Validates to <a
-                href="javascript:if(confirm(%27http://validator.w3.org/check?uri=http://www.yootheme.com/demo/themes/wordpress/2011/spark  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27http://validator.w3.org/check?uri=http://www.yootheme.com/demo/themes/wordpress/2011/spark%27"
-
-                target="_blank">XHTML 1.0</a> and <a
-                href="javascript:if(confirm(%27http://jigsaw.w3.org/css-validator/validator?uri=http://www.yootheme.com/demo/themes/wordpress/2011/spark&profile=css3  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27http://jigsaw.w3.org/css-validator/validator?uri=http://www.yootheme.com/demo/themes/wordpress/2011/spark&profile=css3%27"
-
-                target="_blank">CSS 3</a><br/>
-            Copyright &copy; 2010 <a
-                href="javascript:if(confirm(%27http://www.yootheme.com/  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.yootheme.com/%27"
-                >YOOtheme</a>
-        </div>
-        <!-- footer end -->
-
-    </div>
 </div>
-
-
+</div>
 </body>
 </html>
