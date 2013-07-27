@@ -8,7 +8,7 @@
 
     <link rel="shortcut icon" href="/images/favicon.ico"/>
 
-    <script type='text/javascript' src="/assets/js/jquery.js-ver=1.8.3.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 
     <style type="text/css">.recentcomments a {
         display: inline !important;
@@ -21,12 +21,32 @@
 
     <!--<script type="text/javascript" src="/assets/js/unknown.js"></script>-->
 
+    <!-- slider-->
+    <link rel="stylesheet" href="/assets/css/flexslider.css" type="text/css">
+
+    <script src="/assets/js/jquery.flexslider.js"></script>
+    <!-- slider end-->
+    <script type="text/javascript" charset="utf-8">
+        $(window).load(function() {
+            $('.flexslider').flexslider({
+                animation: "slide",
+                itemwWidth: 980,
+                itemHeigh: 400,
+                start: function(slider){
+                    $('body').removeClass('loading');
+
+                }
+            });
+        });
+    </script>
+
+
     <style type="text/css">body {
-        min-width: 900px;
+        min-width: 1000px;
     }
 
     .wrapper {
-        width: 900px;
+        width: 1000px;
     }
 
     #content-shift {
@@ -72,552 +92,70 @@
 
 <div id="header">
 
-<div id="headerbar">
+    <div id="headerbar">
 
 
-</div>
-
-
-<div id="logo">
-    <a class="logo-icon correct-png" href="index.htm"></a>
-</div>
-
-
-<div class="menubar">
-<div id="menu">
-<ul id="menu-menu" class="menu menu-dropdown">
-<li class="active level1 item1 first parent"><a href="index.htm"
-
-                                                class="level1 item1 first parent active"><span
-        class="bg">Home</span></a>
-
-<div class="dropdown columns2" style="width:400px;">
-<div class="dropdown-t1">
-    <div class="dropdown-t2">
-        <div class="dropdown-t3"></div>
     </div>
-</div>
-<div class="dropdown-1">
-<div class="dropdown-2">
-<div class="dropdown-3">
-<ul class="col1 level2 first">
-    <li class="level2 item1 first active">
-        <div class="group-box1">
-            <div class="group-box2">
-                <div class="group-box3">
-                    <div class="group-box4">
-                        <div class="group-box5">
-                            <div class="hover-box1">
-                                <div class="hover-box2">
-                                    <div class="hover-box3">
-                                        <div class="hover-box4"><a
-                                                href="-preset=preset04.htm"
 
-                                                class="level2 item1 first active"><span
-                                                class="bg icon"
-                                                style="background-image: url('imagesDefault/icon_preset04.png')/*tpa=http://www.yootheme.com/demo/themes/wordpress/2011/spark/wp-content/uploads/yootheme/menu/icon_preset04.png*/;"><span
-                                                class="title">Disco</span><span
-                                                class="subtitle">Red Floor</span></span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li class="level2 item2 active">
-        <div class="group-box1">
-            <div class="group-box2">
-                <div class="group-box3">
-                    <div class="group-box4">
-                        <div class="group-box5">
-                            <div class="hover-box1">
-                                <div class="hover-box2">
-                                    <div class="hover-box3">
-                                        <div class="hover-box4"><a
-                                                href="-preset=preset06.htm"
 
-                                                class="level2 item2 active"><span
-                                                class="bg icon"
-                                                style="background-image: url('imagesDefault/icon_preset06.png')/*tpa=http://www.yootheme.com/demo/themes/wordpress/2011/spark/wp-content/uploads/yootheme/menu/icon_preset06.png*/;"><span
-                                                class="title">Jellyfish</span><span
-                                                class="subtitle">Blue Glow</span></span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li class="level2 item3 active">
-        <div class="group-box1">
-            <div class="group-box2">
-                <div class="group-box3">
-                    <div class="group-box4">
-                        <div class="group-box5">
-                            <div class="hover-box1">
-                                <div class="hover-box2">
-                                    <div class="hover-box3">
-                                        <div class="hover-box4"><a
-                                                href="-preset=preset08.htm"
-
-                                                class="level2 item3 active"><span
-                                                class="bg icon"
-                                                style="background-image: url('imagesDefault/icon_preset08.png')/*tpa=http://www.yootheme.com/demo/themes/wordpress/2011/spark/wp-content/uploads/yootheme/menu/icon_preset08.png*/;"><span
-                                                class="title">Nebula</span><span
-                                                class="subtitle">Green Fog</span></span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li class="level2 item4 active">
-        <div class="group-box1">
-            <div class="group-box2">
-                <div class="group-box3">
-                    <div class="group-box4">
-                        <div class="group-box5">
-                            <div class="hover-box1">
-                                <div class="hover-box2">
-                                    <div class="hover-box3">
-                                        <div class="hover-box4"><a
-                                                href="-preset=preset03.htm"
-
-                                                class="level2 item4 active"><span
-                                                class="bg icon"
-                                                style="background-image: url('imagesDefault/icon_preset03.png')/*tpa=http://www.yootheme.com/demo/themes/wordpress/2011/spark/wp-content/uploads/yootheme/menu/icon_preset03.png*/;"><span
-                                                class="title">Wings</span><span
-                                                class="subtitle">Turquoise Twinkle</span></span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li class="level2 item5 last active">
-        <div class="group-box1">
-            <div class="group-box2">
-                <div class="group-box3">
-                    <div class="group-box4">
-                        <div class="group-box5">
-                            <div class="hover-box1">
-                                <div class="hover-box2">
-                                    <div class="hover-box3">
-                                        <div class="hover-box4"><a
-                                                href="-preset=preset10.htm"
-
-                                                class="level2 item5 last active"><span
-                                                class="bg icon"
-                                                style="background-image: url('imagesDefault/icon_preset10.png')/*tpa=http://www.yootheme.com/demo/themes/wordpress/2011/spark/wp-content/uploads/yootheme/menu/icon_preset10.png*/;"><span
-                                                class="title">Spotlights</span><span
-                                                class="subtitle">Lilac Lights</span></span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-</ul>
-<ul class="col2 level2 last">
-    <li class="level2 item1 first active">
-        <div class="group-box1">
-            <div class="group-box2">
-                <div class="group-box3">
-                    <div class="group-box4">
-                        <div class="group-box5">
-                            <div class="hover-box1">
-                                <div class="hover-box2">
-                                    <div class="hover-box3">
-                                        <div class="hover-box4"><a
-                                                href="-preset=preset05.htm"
-
-                                                class="level2 item1 first active"><span
-                                                class="bg icon"
-                                                style="background-image: url('imagesDefault/icon_preset05.png')/*tpa=http://www.yootheme.com/demo/themes/wordpress/2011/spark/wp-content/uploads/yootheme/menu/icon_preset05.png*/;"><span
-                                                class="title">Disco</span><span
-                                                class="subtitle">Brown Floor</span></span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li class="level2 item2 active">
-        <div class="group-box1">
-            <div class="group-box2">
-                <div class="group-box3">
-                    <div class="group-box4">
-                        <div class="group-box5">
-                            <div class="hover-box1">
-                                <div class="hover-box2">
-                                    <div class="hover-box3">
-                                        <div class="hover-box4"><a
-                                                href="-preset=preset07.htm"
-
-                                                class="level2 item2 active"><span
-                                                class="bg icon"
-                                                style="background-image: url('imagesDefault/icon_preset07.png')/*tpa=http://www.yootheme.com/demo/themes/wordpress/2011/spark/wp-content/uploads/yootheme/menu/icon_preset07.png*/;"><span
-                                                class="title">Jellyfish</span><span
-                                                class="subtitle">Red Glow</span></span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li class="level2 item3 active">
-        <div class="group-box1">
-            <div class="group-box2">
-                <div class="group-box3">
-                    <div class="group-box4">
-                        <div class="group-box5">
-                            <div class="hover-box1">
-                                <div class="hover-box2">
-                                    <div class="hover-box3">
-                                        <div class="hover-box4"><a
-                                                href="-preset=preset09.htm"
-
-                                                class="level2 item3 active"><span
-                                                class="bg icon"
-                                                style="background-image: url('imagesDefault/icon_preset09.png')/*tpa=http://www.yootheme.com/demo/themes/wordpress/2011/spark/wp-content/uploads/yootheme/menu/icon_preset09.png*/;"><span
-                                                class="title">Nebula</span><span
-                                                class="subtitle">Blue Fog</span></span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li class="level2 item4 active">
-        <div class="group-box1">
-            <div class="group-box2">
-                <div class="group-box3">
-                    <div class="group-box4">
-                        <div class="group-box5">
-                            <div class="hover-box1">
-                                <div class="hover-box2">
-                                    <div class="hover-box3">
-                                        <div class="hover-box4"><a
-                                                href="-preset=preset02.htm"
-
-                                                class="level2 item4 active"><span
-                                                class="bg icon"
-                                                style="background-image: url('imagesDefault/icon_preset02.png')/*tpa=http://www.yootheme.com/demo/themes/wordpress/2011/spark/wp-content/uploads/yootheme/menu/icon_preset02.png*/;"><span
-                                                class="title">Wings</span><span
-                                                class="subtitle">Pink Twinkle</span></span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li class="level2 item5 last active">
-        <div class="group-box1">
-            <div class="group-box2">
-                <div class="group-box3">
-                    <div class="group-box4">
-                        <div class="group-box5">
-                            <div class="hover-box1">
-                                <div class="hover-box2">
-                                    <div class="hover-box3">
-                                        <div class="hover-box4"><a
-                                                href="-preset=preset01.htm"
-
-                                                class="level2 item5 last active"><span
-                                                class="bg icon"
-                                                style="background-image: url('imagesDefault/icon_preset01.png')/*tpa=http://www.yootheme.com/demo/themes/wordpress/2011/spark/wp-content/uploads/yootheme/menu/icon_preset01.png*/;"><span
-                                                class="title">Plain</span><span
-                                                class="subtitle">No JS Effects</span></span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-</ul>
-</div>
-</div>
-</div>
-<div class="dropdown-b1">
-    <div class="dropdown-b2">
-        <div class="dropdown-b3"></div>
+    <div id="logo">
+        <a class="logo-icon correct-png" href="index.htm"></a>
     </div>
-</div>
-</div>
-</li>
-<li class="level1 item2 parent"><a href="-page_id=63.htm"
 
-                                   class="level1 item2 parent"><span class="bg">Features</span></a>
 
-    <div class="dropdown columns1">
-        <div class="dropdown-t1">
-            <div class="dropdown-t2">
-                <div class="dropdown-t3"></div>
-            </div>
-        </div>
-        <div class="dropdown-1">
-            <div class="dropdown-2">
-                <div class="dropdown-3">
-                    <ul class="col1 level2 first last">
-                        <li class="level2 item1 first last parent">
-                            <div class="group-box1">
-                                <div class="group-box2">
-                                    <div class="group-box3">
-                                        <div class="group-box4">
-                                            <div class="group-box5">
-                                                <div class="hover-box1">
-                                                    <div class="hover-box2">
-                                                        <div class="hover-box3">
-                                                            <div class="hover-box4"><a
-                                                                    href="-page_id=63.htm"
-
-                                                                    class="level2 item1 first last parent"><span
-                                                                    class="bg icon"
-                                                                    style="background-image: url('imagesDefault/icon_warp5.png')/*tpa=http://www.yootheme.com/demo/themes/wordpress/2011/spark/wp-content/uploads/yootheme/menu/icon_warp5.png*/;"><span
-                                                                    class="title">Warp</span><span
-                                                                    class="subtitle">Theme Framework</span></span></a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="sub">
-                                                    <ul class="sub-menu level3">
-                                                        <li class="level3 item1 first"><a
-                                                                href="-page_id=69.htm"
-
-                                                                class="level3 item1 first"><span
-                                                                class="bg">Module Variations</span></a>
-                                                        </li>
-                                                        <li class="level3 item2 last"><a
-                                                                href="-page_id=71.htm"
-
-                                                                class="level3 item2 last"><span
-                                                                class="bg">Typography</span></a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="dropdown-b1">
-            <div class="dropdown-b2">
-                <div class="dropdown-b3"></div>
-            </div>
+    <div class="menubar">
+        <div id="menu">
+            <ul id="menu-menu" class="menu menu-dropdown">
+                <li class="active level1 item1 first parent">
+                    <a href="index.htm" class="level1 item1 first parent active">
+                        <span class="bg">Главная</span>
+                    </a>
+                </li>
+                <li class="level1 item2 parent">
+                    <a href="" class="level1 item2 parent">
+                        <span class="bg">О нас</span>
+                    </a>
+                </li>
+                <li class="level1 item3">
+                    <a href=""class="level1 item3">
+                    <span class="bg">Услуги</span>
+                    </a>
+                </li>
+                <li class="level1 item4 last parent">
+                    <a href="" class="level1 item4 last parent">
+                        <span class="bg">Контакты</span>
+                    </a>
+                </li>
+            </ul>
         </div>
     </div>
-</li>
-<li class="level1 item3"><a href="-page_id=77.htm"
-
-                            class="level1 item3"><span class="bg">Icons</span></a></li>
-<li class="level1 item4 last parent"><a href="-cat=29.htm"
-
-                                        class="level1 item4 last parent"><span class="bg"><span
-        class="title">WordPress</span><span class="subtitle">categories</span></span></a>
-
-    <div class="dropdown columns1">
-        <div class="dropdown-t1">
-            <div class="dropdown-t2">
-                <div class="dropdown-t3"></div>
-            </div>
-        </div>
-        <div class="dropdown-1">
-            <div class="dropdown-2">
-                <div class="dropdown-3">
-                    <ul class="col1 level2 first last">
-                        <li class="level2 item1 first parent">
-                            <div class="group-box1">
-                                <div class="group-box2">
-                                    <div class="group-box3">
-                                        <div class="group-box4">
-                                            <div class="group-box5">
-                                                <div class="hover-box1">
-                                                    <div class="hover-box2">
-                                                        <div class="hover-box3">
-                                                            <div class="hover-box4"><a href="-cat=7.htm"
-
-                                                                                       class="level2 item1 first parent"><span
-                                                                    class="bg"><span
-                                                                    class="title">Web Design</span><span
-                                                                    class="subtitle">The latest design news</span></span></a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="sub">
-                                                    <ul class="sub-menu level3">
-                                                        <li class="level3 item1 first"><a
-                                                                href="-cat=5.htm"
-
-                                                                class="level3 item1 first"><span
-                                                                class="bg">Themes</span></a></li>
-                                                        <li class="level3 item2 last"><a
-                                                                href="-cat=4.htm"
-
-                                                                class="level3 item2 last"><span
-                                                                class="bg">Icons</span></a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="level2 item2 last parent">
-                            <div class="group-box1">
-                                <div class="group-box2">
-                                    <div class="group-box3">
-                                        <div class="group-box4">
-                                            <div class="group-box5">
-                                                <div class="hover-box1">
-                                                    <div class="hover-box2">
-                                                        <div class="hover-box3">
-                                                            <div class="hover-box4"><a href="-cat=8.htm"
-
-                                                                                       class="level2 item2 last parent"><span
-                                                                    class="bg"><span
-                                                                    class="title">Web Development</span><span
-                                                                    class="subtitle">Great archive for developers</span></span></a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="sub">
-                                                    <ul class="sub-menu level3">
-                                                        <li class="level3 item1 first"><a
-                                                                href="-cat=9.htm"
-
-                                                                class="level3 item1 first"><span
-                                                                class="bg">Theme Framework</span></a>
-                                                        </li>
-                                                        <li class="level3 item2 last"><a
-                                                                href="-cat=10.htm"
-
-                                                                class="level3 item2 last"><span
-                                                                class="bg">Content Management</span></a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="dropdown-b1">
-            <div class="dropdown-b2">
-                <div class="dropdown-b3"></div>
-            </div>
-        </div>
-    </div>
-</li>
-</ul>
-<ul class="menu menu-dropdown mod-dropdown">
-    <li class="level1 parent separator">
-		<span class="level1 parent separator">
-			<span class="bg"><span class="title"><span class="color">Module</span> </span><span class="subtitle"> menu position</span></span>
-		</span>
-
-        <div class="dropdown columns1">
-            <div class="dropdown-t1">
-                <div class="dropdown-t2">
-                    <div class="dropdown-t3"></div>
-                </div>
-            </div>
-            <div class="dropdown-1">
-                <div class="dropdown-2">
-                    <div class="dropdown-3">
-                        <ul class="col1 level2 first last">
-                            <li class="level2 item1 first last">
-                                <div class="group-box1">
-                                    <div class="group-box2">
-                                        <div class="group-box3">
-                                            <div class="group-box4">
-                                                <div class="group-box5">
-                                                    <div class="hover-box1">
-                                                        <div class="hover-box2">
-                                                            <div class="hover-box3">
-                                                                <div class="hover-box4">
-                                                                    <div class="module">Any widget can be
-                                                                        placed in the drop down menu
-                                                                        position.
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="dropdown-b1">
-                <div class="dropdown-b2">
-                    <div class="dropdown-b3"></div>
-                </div>
-            </div>
-        </div>
-    </li>
-</ul>
-</div>
-</div>
-
 </div>
 <!-- header end -->
+
+<hr/>
+
+<div class="flexslider">
+    <ul class="slides">
+        <li>
+            <img src="/images/slider/slide.jpg" />
+            <p class="flex-caption">Captions and cupcakes. Winning combination.</p>
+        </li>
+        <li>
+            <img src="/images/slider/slide2.jpg" />
+            <p class="flex-caption">Captions and cupcakes. Winning combination.</p>
+        </li>
+        <li>
+            <img src="/images/slider/slide3.jpg" />
+            <p class="flex-caption">Captions and cupcakes. Winning combination.</p>
+        </li>
+        <li>
+            <img src="/images/slider/slide4.jpg" />
+            <p class="flex-caption">Captions and cupcakes. Winning combination.</p>
+        </li>
+    </ul>
+</div>
+
+<hr/>
 
 <div class="middle-wrapper">
 <div id="middle">
