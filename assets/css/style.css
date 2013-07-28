@@ -3070,69 +3070,9 @@ div#comments .comment-byadmin .comment-head {
     background-image: url("/imagesDefault/wings_img.png")
 }
 
-.background-wings #page-body {
-    background-image: url("/imagesDefault/wings_bg.jpg")
-}
-
-.background-wings.style-red #page-body {
-    background-image: url("/imagesDefault/wings_bg-1.jpg")
-}
-
-.background-wings.style-green #page-body {
-    background-image: url("/imagesDefault/wings_bg-2.jpg")
-}
-
-.background-wings.style-brown #page-body {
-    background-image: url("/imagesDefault/wings_bg-3.jpg")
-}
-
-.background-wings.style-pink #page-body {
-    background-image: url("/imagesDefault/wings_bg-4.jpg")
-}
-
-.background-wings.style-lilac #page-body {
-    background-image: url("/imagesDefault/wings_bg-5.jpg")
-}
-
-.background-wings.style-turquoise #page-body {
-    background-image: url("/imagesDefault/wings_bg-6.jpg")
-}
-
-.background-wings.nobganimation #page-body {
-    background-image: url("/imagesDefault/wings_bg_static.jpg")
-}
-
-.background-wings.style-red.nobganimation #page-body {
-    background-image: url("/imagesDefault/wings_bg_static-1.jpg")
-}
-
-.background-wings.style-green.nobganimation #page-body {
-    background-image: url("/imagesDefault/wings_bg_static-2.jpg")
-}
-
-.background-wings.style-brown.nobganimation #page-body {
-    background-image: url("/imagesDefault/wings_bg_static-3.jpg")
-}
-
-.background-wings.style-pink.nobganimation #page-body {
-    background-image: url("/imagesDefault/wings_bg_static-4.jpg")
-}
-
-.background-wings.style-lilac.nobganimation #page-body {
-    background-image: url("/imagesDefault/wings_bg_static-5.jpg")
-}
-
-.background-wings.style-turquoise.nobganimation #page-body {
-    background-image: url("/imagesDefault/wings_bg_static-6.jpg")
-}
-
 .background-disco #page-body .page-body-1 {
     background-image: url("/imagesDefault/disco_img.png");
     background-size: 1920px;
-}
-
-.background-disco #page-body {
-    background-image: url("/imagesDefault/disco_bg.jpg")
 }
 
 .background-disco.style-red #page-body {
@@ -3140,236 +3080,12 @@ div#comments .comment-byadmin .comment-head {
     background-size: 570px;
 }
 
-.background-disco.style-green #page-body {
-    background-image: url("/imagesDefault/disco_bg-2.jpg")
-}
-
-.background-disco.style-brown #page-body {
-    background-image: url("/imagesDefault/disco_bg-3.jpg")
-}
-
-.background-disco.style-pink #page-body {
-    background-image: url("/imagesDefault/disco_bg-4.jpg")
-}
-
-.background-disco.style-lilac #page-body {
-    background-image: url("/imagesDefault/disco_bg-5.jpg")
-}
-
-.background-disco.style-turquoise #page-body {
-    background-image: url("/imagesDefault/disco_bg-6.jpg")
-}
-
-.background-disco.nobganimation #page-body {
-    background-image: url("/imagesDefault/disco_bg_static.jpg")
-}
-
-.background-disco.style-red.nobganimation #page-body {
-    background-image: url("/imagesDefault/disco_bg_static-1.jpg")
-}
-
-.background-disco.style-green.nobganimation #page-body {
-    background-image: url("/imagesDefault/disco_bg_static-2.jpg")
-}
-
-.background-disco.style-brown.nobganimation #page-body {
-    background-image: url("/imagesDefault/disco_bg_static-3.jpg")
-}
-
-.background-disco.style-pink.nobganimation #page-body {
-    background-image: url("/imagesDefault/disco_bg_static-4.jpg")
-}
-
-.background-disco.style-lilac.nobganimation #page-body {
-    background-image: url("/imagesDefault/disco_bg_static-5.jpg")
-}
-
-.background-disco.style-turquoise.nobganimation #page-body {
-    background-image: url("/imagesDefault/disco_bg_static-6.jpg")
-}
-
 .background-jellyfish #page-body .page-body-1 {
     background-image: url("/imagesDefault/jellyfish_img.png")
 }
 
-.background-jellyfish #page-body {
-    background-image: url("/imagesDefault/jellyfish_bg.jpg")
-}
-
-.background-jellyfish.nobganimation #page-body {
-    background-image: url("/imagesDefault/jellyfish_bg_static.jpg")
-}
-
-.background-jellyfish.style-red #page-body {
-    background-image: url("/imagesDefault/jellyfish_bg-1.jpg")
-}
-
-.background-jellyfish.style-green #page-body {
-    background-image: url("/imagesDefault/jellyfish_bg-2.jpg")
-}
-
-.background-jellyfish.style-brown #page-body {
-    background-image: url("/imagesDefault/jellyfish_bg-3.jpg")
-}
-
-.background-jellyfish.style-pink #page-body {
-    background-image: url("/imagesDefault/jellyfish_bg-4.jpg")
-}
-
-.background-jellyfish.style-lilac #page-body {
-    background-image: url("/imagesDefault/jellyfish_bg-5.jpg")
-}
-
-.background-jellyfish.style-turquoise #page-body {
-    background-image: url("/imagesDefault/jellyfish_bg-6.jpg")
-}
-
-.background-jellyfish.nobganimation #page-body {
-    background-image: url("/imagesDefault/jellyfish_bg_static.jpg")
-}
-
-.background-jellyfish.style-red.nobganimation #page-body {
-    background-image: url("/imagesDefault/jellyfish_bg_static-1.jpg")
-}
-
-.background-jellyfish.style-green.nobganimation #page-body {
-    background-image: url("/imagesDefault/jellyfish_bg_static-2.jpg")
-}
-
-.background-jellyfish.style-brown.nobganimation #page-body {
-    background-image: url("/imagesDefault/jellyfish_bg_static-3.jpg")
-}
-
-.background-jellyfish.style-pink.nobganimation #page-body {
-    background-image: url("/imagesDefault/jellyfish_bg_static-4.jpg")
-}
-
-.background-jellyfish.style-lilac.nobganimation #page-body {
-    background-image: url("/imagesDefault/jellyfish_bg_static-5.jpg")
-}
-
-.background-jellyfish.style-turquoise.nobganimation #page-body {
-    background-image: url("/imagesDefault/jellyfish_bg_static-6.jpg")
-}
-
-.background-nebula #page-body .page-body-1 {
-    background-image: url("/imagesDefault/nebula_img.png")
-}
-
-.background-nebula #page-body {
-    background-image: url("/imagesDefault/nebula_bg.jpg")
-}
-
-.background-nebula.style-red #page-body {
-    background-image: url("/imagesDefault/nebula_bg-1.jpg")
-}
-
-.background-nebula.style-green #page-body {
-    background-image: url("/imagesDefault/nebula_bg-2.jpg")
-}
-
-.background-nebula.style-brown #page-body {
-    background-image: url("/imagesDefault/nebula_bg-3.jpg")
-}
-
-.background-nebula.style-pink #page-body {
-    background-image: url("/imagesDefault/nebula_bg-4.jpg")
-}
-
-.background-nebula.style-lilac #page-body {
-    background-image: url("/imagesDefault/nebula_bg-5.jpg")
-}
-
-.background-nebula.style-turquoise #page-body {
-    background-image: url("/imagesDefault/nebula_bg-6.jpg")
-}
-
-.background-nebula.nobganimation #page-body {
-    background-image: url("/imagesDefault/nebula_bg_static.jpg")
-}
-
-.background-nebula.style-red.nobganimation #page-body {
-    background-image: url("/imagesDefault/nebula_bg_static-1.jpg")
-}
-
-.background-nebula.style-green.nobganimation #page-body {
-    background-image: url("/imagesDefault/nebula_bg_static-2.jpg")
-}
-
-.background-nebula.style-brown.nobganimation #page-body {
-    background-image: url("/imagesDefault/nebula_bg_static-3.jpg")
-}
-
-.background-nebula.style-pink.nobganimation #page-body {
-    background-image: url("/imagesDefault/nebula_bg_static-4.jpg")
-}
-
-.background-nebula.style-lilac.nobganimation #page-body {
-    background-image: url("/imagesDefault/nebula_bg_static-5.jpg")
-}
-
-.background-nebula.style-turquoise.nobganimation #page-body {
-    background-image: url("/imagesDefault/nebula_bg_static-6.jpg")
-}
-
 .background-spotlights #page-body .page-body-1 {
     background-image: url("/imagesDefault/spotlights_img.png")
-}
-
-.background-spotlights #page-body {
-    background-image: url("/imagesDefault/spotlights_bg.jpg")
-}
-
-.background-spotlights.style-red #page-body {
-    background-image: url("/imagesDefault/spotlights_bg-1.jpg")
-}
-
-.background-spotlights.style-green #page-body {
-    background-image: url("/imagesDefault/spotlights_bg-2.jpg")
-}
-
-.background-spotlights.style-brown #page-body {
-    background-image: url("/imagesDefault/spotlights_bg-3.jpg")
-}
-
-.background-spotlights.style-pink #page-body {
-    background-image: url("/imagesDefault/spotlights_bg-4.jpg")
-}
-
-.background-spotlights.style-lilac #page-body {
-    background-image: url("/imagesDefault/spotlights_bg-5.jpg")
-}
-
-.background-spotlights.style-turquoise #page-body {
-    background-image: url("/imagesDefault/spotlights_bg-6.jpg")
-}
-
-.background-spotlights.nobganimation #page-body {
-    background-image: url("/imagesDefault/spotlights_bg_static.jpg")
-}
-
-.background-spotlights.style-red.nobganimation #page-body {
-    background-image: url("/imagesDefault/spotlights_bg_static-1.jpg")
-}
-
-.background-spotlights.style-green.nobganimation #page-body {
-    background-image: url("/imagesDefault/spotlights_bg_static-2.jpg")
-}
-
-.background-spotlights.style-brown.nobganimation #page-body {
-    background-image: url("/imagesDefault/spotlights_bg_static-3.jpg")
-}
-
-.background-spotlights.style-pink.nobganimation #page-body {
-    background-image: url("/imagesDefault/spotlights_bg_static-4.jpg")
-}
-
-.background-spotlights.style-lilac.nobganimation #page-body {
-    background-image: url("/imagesDefault/spotlights_bg_static-5.jpg")
-}
-
-.background-spotlights.style-turquoise.nobganimation #page-body {
-    background-image: url("/imagesDefault/spotlights_bg_static-6.jpg")
 }
 
 .nobganimation #page-body {
@@ -3425,12 +3141,6 @@ span.bg {
     color: #A0C373
 }
 
-#menu a.level3 span.bg,
-#menu span.level3
-span.bg {
-    background-image: url("/imagesDefault/menu_level3_item-2.png")
-}
-
 div.mod-line ul.menu a.current
 span.bg {
     color: #A0C373
@@ -3440,18 +3150,6 @@ div.mod-line ul.menu a:hover span.bg,
 div.mod-line ul.menu span:hover
 span.bg {
     color: #FFF
-}
-
-div.mod-line ul.menu li.level2
-span.bg {
-    background-image: url("/imagesDefault/submenu_level2_item-2.png")
-}
-
-div.mod-frame-glitter div.box-1 {
-    background-image: url("/imagesDefault/module_frame_glitter_bg-2.png");
-    -moz-box-shadow: 0 0 20px rgba(145, 180, 80, 0.3);
-    -webkit-box-shadow: 0 0 20px rgba(145, 180, 80, 0.3);
-    box-shadow: 0 0 20px rgba(145, 180, 80, 0.3)
 }
 
 div.mod-frame-glitter div.box-2 {
@@ -3570,43 +3268,6 @@ h1 {
 p {
     margin: 0 0 10px 0;
     line-height: 15px
-}
-
-.homebottomimage {
-    width: 850px;
-    height: 245px;
-    margin: -10px;
-    background: url("/imagesDefault/home_bottom.jpg") 0 0 no-repeat
-}
-
-.style-red
-.homebottomimage {
-    background: url("/imagesDefault/home_bottom_red.jpg") 0 0 no-repeat
-}
-
-.style-green
-.homebottomimage {
-    background: url("/imagesDefault/home_bottom_green.jpg") 0 0 no-repeat
-}
-
-.style-brown
-.homebottomimage {
-    background: url("/imagesDefault/home_bottom_brown.jpg") 0 0 no-repeat
-}
-
-.style-pink
-.homebottomimage {
-    background: url("/imagesDefault/home_bottom_pink.jpg") 0 0 no-repeat
-}
-
-.style-lilac
-.homebottomimage {
-    background: url("/imagesDefault/home_bottom_lilac.jpg") 0 0 no-repeat
-}
-
-.style-turquoise
-.homebottomimage {
-    background: url("/imagesDefault/home_bottom_turquoise.jpg") 0 0 no-repeat
 }
 
 .about-us,
