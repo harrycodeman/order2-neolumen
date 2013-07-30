@@ -147,7 +147,7 @@ h6 {
 }
 
 hr {
-    margin: 15px 0 15px 0;
+    margin: 0px 0 -20px 0;
     display: block;
     background: #c8c8c8;
     height: 1px;
@@ -229,6 +229,8 @@ body {
     position: relative;
     z-index: 10;
     clear: both
+;
+    height: 296px;
 }
 
 #top {
@@ -293,7 +295,7 @@ body {
 
 #maintop, #contenttop {
     overflow: hidden;
-    width: 850px;
+    width: 740px;
     margin: 0 auto;
 }
 
@@ -450,13 +452,13 @@ body.yoopage {
 
 #headerbar {
     padding: 0px 0px 75px 0px;
-    min-height: 410px;
+    min-height: 300px;
     overflow: hidden
 }
 
 #logo {
     position: absolute;
-    top: 150px;
+    top: 40px;
     left: 50%;
 }
 
@@ -465,7 +467,7 @@ div.menubar {
     bottom: 0px;
     left: 110px;
     right: 0px;
-    height: 35px;
+    height: 0px;
 }
 
 #menu {
@@ -805,7 +807,7 @@ li.level1 {
 #menu
 span.level1 {
     float: left;
-    margin: 0px 55px 0px 55px;
+    margin: 0 40px 0 25px;
 }
 
 #menu .first a.level1,
@@ -1781,7 +1783,7 @@ p {
 .about-us,
 .services,
 .footer {
-    width: 850px;
+    width: 740px;
     margin: 0 auto;
     text-align: justify;
 }
