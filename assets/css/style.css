@@ -40,6 +40,7 @@ dd {
 
 td, th {
     padding: 1px
+;
 }
 
 a:link, a:visited {
@@ -389,6 +390,10 @@ body {
 
 .width54 {
     width: 54%
+}
+
+.width57 {
+    width: 57%
 }
 
 .width65 {
@@ -1792,6 +1797,10 @@ p {
     text-align: center;
 }
 
+.height60 {
+    height: 60px;
+}
+
 .horizontal {
     display: inline-block;
 }
@@ -1799,6 +1808,14 @@ p {
 .top {
     vertical-align: top;
 }
+
+.width32{
+    width:32px;
+}
+.vertical-middle {
+    vertical-align: middle;
+}
+
 
 .footer .column1 {
 
@@ -1809,11 +1826,11 @@ p {
 }
 
 .footer .column3 {
-    float: right;
+    float: left;
 }
 
 .footer p {
-    font-size: 14px;
+    font-size: 16px;
     margin: 0 0 10px 7px;
 }
 

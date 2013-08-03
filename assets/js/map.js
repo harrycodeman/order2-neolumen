@@ -3,21 +3,21 @@ DG.autoload(function() {
     // Создаем объект карты, связанный с контейнером:
     var myMap = new DG.Map('myMapId');
     // Устанавливаем центр карты, и коэффициент масштабирования:
-    myMap.setCenter(new DG.GeoPoint(84.950797872257,56.482352330204), 16);
+    myMap.setCenter(new DG.GeoPoint(73.431275,61.251404), 16);
     // Добавляем элемент управления коэффициентом масштабирования:
     myMap.controls.add(new DG.Controls.Zoom());
 
     // Создаем балун:
     var myBalloon = new DG.Balloons.Common({
         // Местоположение на которое указывает балун:
-        geoPoint: new DG.GeoPoint(84.950797872257,56.482352330204),
+        geoPoint: new DG.GeoPoint(73.431275,61.251404),
         // Устанавливаем текст, который будет отображатся при открытии балуна:
-        contentHtml: 'Привет!<br>Вы кликнули по мне :)'
+        contentHtml: 'Здравствуйте<br>Мы находимся тут'
     });
     // Создаем маркер:
     var myMarker = new DG.Markers.Common({
         // Местоположение на которое указывает маркер:
-        geoPoint: new DG.GeoPoint(84.950797872257,56.482352330204),
+        geoPoint: new DG.GeoPoint(73.431275,61.251404),
         // Функция, вызываемая при клике по маркеру
         clickCallback: function() {
             if (! myMap.balloons.getDefaultGroup().contains(myBalloon)) {
